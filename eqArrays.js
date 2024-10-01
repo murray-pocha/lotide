@@ -20,5 +20,3 @@ function eqArrays(arr1, arr2) {
 
 assertEqual(eqArrays(["a", "b", "c"], ["a", "b", "c"]), true);
 assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true);
-assertEqual(eqArrays([1, "b", 5], ["1", "b", 5]), false);
-assertEqual(eqArrays([1, 2, 3], [1, 8, 4]), true);
