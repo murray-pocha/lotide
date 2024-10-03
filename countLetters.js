@@ -10,7 +10,7 @@ const assertEqual = function(actual, expected) {
 
 
 const countLetters = function(sentence) {
-  result = {};
+  const result = {};
   for (const item of sentence) {
     if (item === " ") {
       continue;
@@ -25,6 +25,6 @@ const countLetters = function(sentence) {
   return result;
 };
 
-
-
-console.log(countLetters("Hope this works!"));
+const result = countLetters("Hope this works!");
+assertEqual(result["o"], 2);
+assertEqual(result["p"], 1);
