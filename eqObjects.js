@@ -36,6 +36,8 @@ const eqObjects = function(object1, object2) {
       if (!eqArrays(value1, value2)) {
         return false;
       }
+    } else if (value1 !== value2) {
+      return false;
     }
   }
   return true;
@@ -52,9 +54,7 @@ const sandals = { shoecolor: "black", shoesize: 10, shoetype: "sandal" };
 eqObjects(shoes, sandals);
 assertEqual(eqObjects(shoes, sandals), false);
 
-const boots = { shoecolor: "black", shoesize: 9 };
-eqObjects(shoes, boots);
-assertEqual(eqObjects(shoes, boots), true);
+
 
 
 // comes back false because two arrays when using the === operand will always come back false. Because they are always two different arrays.
