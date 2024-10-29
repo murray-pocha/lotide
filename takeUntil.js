@@ -20,3 +20,5 @@ console.log(results);
 const array1 = ['hello', 'I', 'will', 'stop', 'at', 'the', 'comma', ',', 'no', 'more'];
 const results1 = takeUntil(array1, (x) => x === ',');
 console.log(results1);
+
+assertArraysEqual(takeUntil(array, (x) => x < 0), [1, 2, 3, 3, 6, 0, 9, 7]);
