@@ -1,5 +1,4 @@
 const assertArraysEqual = require('./assertArraysEqual');
-const eqArrays = require('./eqArrays');
 
 
 const takeUntil = function(array, callback) {
