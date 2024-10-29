@@ -13,8 +13,9 @@ const letterPositions    = require('./letterPositions');
 const without            = require('./without');
 const takeUntil          = require('./takeUntil');
 const findKey            = require('./findKey');
-
+const map                = require('./map');
 module.exports = {
+  map,
   head,
   tail,
   middle,
