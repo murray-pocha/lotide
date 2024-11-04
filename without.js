@@ -44,3 +44,5 @@ const without = function(items, itemsToRemove) {
 let result = without([1, 2, 3, 4], [1, 2, 3]);
 assertArraysEqual(result, [4]);
 console.log(result);
+
+module.exports = without;
