@@ -1,6 +1,6 @@
 {
   "name": "@murray.pocha/lotide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My project Lotide is a library of functions for anyone to use for their personal projects. If you look inside my README file you will find all the functions that are available for your use. I hope you enjoy!",
   "main": "index.js",
   "directories": {
